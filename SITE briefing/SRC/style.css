@@ -3,3 +3,18 @@
     height: 50px;
 }
 
+/* Remove a seta do dropdown-toggle (Navbar) */
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+/* Expandir o menu ao passar o mouse sobre o dropdown */
+.dropdown:hover .dropdown-menu {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+
+.navbar-bottom {
+    background-color: #f8f9fa;
+}
