@@ -1,6 +1,6 @@
 .btn-lemon {
-    background-color: #A4E92A;
-    border-color: #A4E92A;
+    background-color: #BCFF31;
+    border-color: #BCFF31;
     color: #03092D;
 }
 
@@ -50,9 +50,12 @@ body {
 }
 
 .payment-logo {
-    width: 40px;
+    width: auto;
+    height: 25px; /* Ajuste a altura conforme necessário */
     background-color: white;
     border-radius: 2px;
     padding: 5px;
     margin-right: 10px;
+    display: inline-block;
+    object-fit: contain;
 }
