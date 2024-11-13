@@ -10,6 +10,12 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dela+Gothic+One&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <!-- CSS local -->
     <link rel="stylesheet" href="./SRC/style.css">
 </head>
@@ -17,16 +23,20 @@
 <body>
     <header>
         <!-- Barra de Menu - Cima -->
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-top">
+        <nav class="navbar navbar-expand-md navbar-dark bg-midnight navbar-top">
             <div class="container">
                 <!-- Menu Hambúrguer -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon">
+                        <img src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23ffffff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"
+                            alt="Menu">
+                    </span>
                 </button>
                 <!-- Logo -->
                 <a class="navbar-brand mx-auto mx-md-0 order-0 order-md-1" href="index.html">
-                    <img src="./SRC/IMG/LOGO KRIS CLOTHING.png" alt="Kris Clothing" width="50" height="50">
+                    <img src="./SRC/IMG/kris-logo.svg" alt="Kris Clothing" height="30"
+                        style="filter: brightness(0) invert(1);">
                 </a>
                 <!-- Ícones - Login, Lista de Desejos, Sacola de Compras -->
                 <div class="d-flex order-2 order-md-3">
@@ -42,9 +52,11 @@
                 </div>
                 <!-- Barra de Pesquisa -->
                 <form class="d-flex flex-grow-1 mx-md-5 d-md-flex d-block order-3 order-md-2" role="search">
-                    <input class="form-control me-2" type="search" placeholder="O que você está procurando?"
+                    <input class="form-control" type="search" placeholder="O que você está procurando?"
                         aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                    <button class="btn btn-lemon" type="submit">
+                        <i class="bi bi-search"></i>
+                    </button>
                 </form>
             </div>
         </nav>
@@ -184,8 +196,60 @@
         </div>
     </main>
 
-    <footer>
+    <footer class="bg-midnight text-white pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>INSTITUCIONAL</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Sobre</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Política de Privacidade</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Termos e Condições</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Trabalhe Conosco</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <h5>AJUDA</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Fale Conosco</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Trocas e Devoluções</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Envio e Entregas</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Pagamento</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Cancelamento</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Cupons e Descontos</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <h5>SIGA-NOS</h5>
+                    <ul class="list-unstyled d-flex">
+                        <li><a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <p>&copy; 2024 Kris Clothing</p>
+                </div>
+
+                <div class="col-md-6 mb-3 text-lg-end">
+                    <img src="./SRC/IMG/mastercard-logo.png" alt="MasterCard" class="payment-logo me-3" style="width: 40px;">
+                    <img src="./SRC/IMG/visa-logo.png" alt="Visa" class="payment-logo me-3" style="width: 40px;">
+                    <img src="./SRC/IMG/amex-logo.png" alt="American Express" class="payment-logo me-3" style="width: 40px;">
+                    <img src="./SRC/IMG/elo-logo.png" alt="Elo" class="payment-logo me-3" style="width: 40px;">
+                    <img src="./SRC/IMG/hipercard-logo.png" alt="Hipercard" class="payment-logo me-3" style="width: 40px;">
+                    <img src="./SRC/IMG/paypal-logo.png" alt="PayPal" class="payment-logo me-3" style="width: 40px;">
+                    <img src="./SRC/IMG/pix-logo.png" alt="Pix" class="payment-logo me-3" style="width: 40px;">
+                </div>
+            </div>
+        </div>
     </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

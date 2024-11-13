@@ -1,6 +1,36 @@
-.logo-navbar {
-    width: 50px;
-    height: 50px;
+.btn-lemon {
+    background-color: #A4E92A;
+    border-color: #A4E92A;
+    color: #03092D;
+}
+
+.btn-lemon:hover {
+    background-color: silver;
+    border-color: silver;
+    color: #03092D;
+}
+
+.bg-midnight {
+    background-color: #03092D;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/* Barra de pesquisa */
+.form-control {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.form-control,
+.btn {
+    border-radius: 0 !important;
 }
 
 /* Remove a seta do dropdown-toggle (Navbar) */
@@ -16,5 +46,13 @@
 }
 
 .navbar-bottom {
-    background-color: #f8f9fa;
+    background-color: white;
+}
+
+.payment-logo {
+    width: 40px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 5px;
+    margin-right: 10px;
 }
