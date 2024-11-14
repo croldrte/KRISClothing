@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kris Clothing</title>
+    <title>KRIS Clothing</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -181,19 +181,83 @@
     </header>
     <main>
         <div class="container-fluid">
-            <div class="row align-items-center">
-                <!-- Coluna 1: Texto -->
-                <div class="col-md-5" style="padding: 0 10rem 0 10rem">
-                    <h1>KRIS na BAPE®️</h1>
-                    <p>Inspirada nas cores e símbolos de diferentes culturas, a nova coleção SHARK COUNTRY PACK da BAPE®️ traz peças que celebram a diversidade e a paixão por um estilo autêntico.</p>
-                    <a href="#" class="btn btn-lemon">Compre Já</a>
+            <div id="carouselExampleIndicators" class="carousel slide custom-carousel" data-bs-ride="carousel"
+                data-bs-interval="7500" data-bs-pause="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
                 </div>
-                <!-- Coluna 2: Imagem -->
-                <div class="col-md-7">
-                    <img src="./SRC/IMG/bape-banner.jpg" alt="Imagem da coleção SHARK COUNTRY PACK" class="img-fluid">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row align-items-center">
+                            <!-- Coluna 1 -->
+                            <div class="col-md-5" style="padding: 7.5%">
+                                <h1>BAPE®️ na KRIS</h1>
+                                <p>Inspirada nas cores e símbolos de diferentes culturas, a nova coleção SHARK COUNTRY
+                                    PACK da BAPE®️ traz peças que celebram a diversidade e a paixão por um estilo
+                                    autêntico.</p>
+                                <a href="#" class="btn btn-lemon">Compre Já</a>
+                            </div>
+                            <!-- Coluna 2 -->
+                            <div class="col-md-7">
+                                <img src="./SRC/IMG/bape-banner.jpg" alt="Imagem da coleção SHARK COUNTRY PACK"
+                                    class="img-fluid w-100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <!-- Coluna 1 -->
+                            <div class="col-md-5" style="padding: 7.5%">
+                                <h1>Lorem Ipsum</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.</p>
+                                <a href="#" class="btn btn-lemon">Compre Já</a>
+                            </div>
+                            <!-- Coluna 2 -->
+                            <div class="col-md-7">
+                                <img src="./SRC/IMG/xmas-banner.jpg" alt="..." class="img-fluid w-100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <!-- Coluna 1 -->
+                            <div class="col-md-5" style="padding: 7.5%">
+                                <h1>Lorem Ipsum</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.</p>
+                                <a href="#" class="btn btn-lemon">Compre Já</a>
+                            </div>
+                            <!-- Coluna 2 -->
+                            <div class="col-md-7">
+                                <img src="https://via.placeholder.com/2400x1080" alt="..."
+                                    class="img-fluid w-100">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <!-- <div class="row">
+            <div class="col">
+                <img src="./SRC/IMG/masculino.jpg" alt="">
+                <h4>masculino</h4>
+            </div>
+            <div class="col">
+                <img src="./SRC/IMG/feminino.jpg" alt="">
+                <h4>Feminino</h4>
+            </div>
+            <div class="col">
+                <img src="./SRC/IMG/kids.jpg" alt="">
+                <h4>Kids</h4>
+            </div>
+        </div> -->
     </main>
 
     <footer class="bg-midnight text-white pt-5 pb-4">
@@ -215,7 +279,7 @@
                     <ul class="list-unstyled">
                         <li><a href="#" class="text-white text-decoration-none">Fale Conosco</a></li>
                         <li><a href="#" class="text-white text-decoration-none">Trocas e Devoluções</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">Envio e Entregas</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Envio e Entrega</a></li>
                         <li><a href="#" class="text-white text-decoration-none">Pagamento</a></li>
                         <li><a href="#" class="text-white text-decoration-none">Cancelamento</a></li>
                         <li><a href="#" class="text-white text-decoration-none">Cupons e Descontos</a></li>
@@ -234,22 +298,24 @@
 
             <div class="row">
                 <div class="col-md-6 mb-3">
-                    <p>&copy; 2024 Kris Clothing</p>
+                    <p>&copy; 2024 KRIS Clothing</p>
                 </div>
 
                 <div class="col-md-6 mb-3 text-lg-end">
-                    <img src="./SRC/IMG/mastercard-logo.png" alt="MasterCard" class="payment-logo me-2" style="width: 40px">
+                    <img src="./SRC/IMG/mastercard-logo.png" alt="MasterCard" class="payment-logo me-2"
+                        style="width: 40px">
                     <img src="./SRC/IMG/visa-logo.png" alt="Visa" class="payment-logo me-2" style="width: 40px">
-                    <img src="./SRC/IMG/amex-logo.png" alt="American Express" class="payment-logo me-2" style="width: 40px">
+                    <img src="./SRC/IMG/amex-logo.png" alt="American Express" class="payment-logo me-2"
+                        style="width: 40px">
                     <img src="./SRC/IMG/elo-logo.png" alt="Elo" class="payment-logo me-2" style="width: 40px">
-                    <img src="./SRC/IMG/hipercard-logo.png" alt="Hipercard" class="payment-logo me-2" style="width: 40px">
+                    <img src="./SRC/IMG/hipercard-logo.png" alt="Hipercard" class="payment-logo me-2"
+                        style="width: 40px">
                     <img src="./SRC/IMG/paypal-logo.png" alt="PayPal" class="payment-logo me-2" style="width: 40px">
                     <img src="./SRC/IMG/pix-logo.png" alt="Pix" class="payment-logo me-2" style="width: 40px">
                 </div>
             </div>
         </div>
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
