@@ -1,3 +1,7 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
 .btn-lemon {
     background-color: #BCFF31;
     border-color: #BCFF31;
@@ -14,8 +18,8 @@
     background-color: #03092D;
 }
 
-body {
-    font-family: 'DM Sans', sans-serif;
+.container-fluid {
+    --bs-gutter-x: 0;
 }
 
 .navbar-toggler {
@@ -51,11 +55,42 @@ body {
 
 .payment-logo {
     width: auto;
-    height: 25px; /* Ajuste a altura conforme necessário */
+    height: 25px;
     background-color: white;
     border-radius: 2px;
     padding: 5px;
     margin-right: 10px;
     display: inline-block;
     object-fit: contain;
+}
+
+/* Ajuste Imagem Carousel */
+.custom-carousel img {
+    object-fit: cover;
+    height: 100%;
+}
+
+/* Animação zoom imagem e expansão texto */
+.col-animated img {
+    transition: transform 1s ease;
+}
+
+.col-animated:hover img {
+    transform: scale(1.25);
+}
+
+.col-animated h4 {
+    transition: letter-spacing 1s ease;
+}
+
+.col-animated:hover h4 {
+    letter-spacing: 5px;
+}
+
+.product p {
+    margin: 0;
+}
+
+.card, .card-img-top {
+    border-radius: 0;
 }
