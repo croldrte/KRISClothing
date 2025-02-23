@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRIS Clothing</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dela+Gothic+One&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- CSS local -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <!-- Barra de Menu - Cima -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-midnight navbar-top">
+            <div class="container">
+                <!-- Menu Hambúrguer -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <img src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23ffffff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"
+                            alt="Menu">
+                    </span>
+                </button>
+                <!-- Logo -->
+                <a class="navbar-brand mx-auto mx-md-0 order-0 order-md-1" href="index.html">
+                    <img src="images/kris-logo.svg" alt="KRIS Clothing" height="30"
+                        style="filter: brightness(0) invert(1);">
+                </a>
+                <!-- Ícones - Login, Lista de Desejos, Sacola de Compras -->
+                <div class="d-flex order-2 order-md-3">
+                    <a href="login.html" class="text-light mx-2">
+                        <i class="bi bi-person" style="font-size: 1.5rem;"></i>
+                    </a>
+                    <a href="favoritos.html" class="text-light mx-2">
+                        <i class="bi bi-heart" style="font-size: 1.5rem;"></i>
+                    </a>
+                    <a href="sacola.html" class="text-light mx-2">
+                        <i class="bi bi-bag" style="font-size: 1.5rem;"></i>
+                    </a>
+                </div>
+                <!-- Barra de Pesquisa -->
+                <form class="d-flex flex-grow-1 mx-md-5 d-md-flex d-block order-3 order-md-2" role="search">
+                    <input class="form-control" type="search" placeholder="O que você está procurando?"
+                        aria-label="Search">
+                    <button class="btn btn-lemon" type="submit">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </form>
+            </div>
+        </nav>
+        <!-- Barra de Menu - Baixo -->
+        <nav class="navbar navbar-expand-md navbar-light navbar-bottom border-bottom border-black">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#">Lançamentos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Roupas</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Camisetas</a></li>
+                            <li><a class="dropdown-item" href="#">Camisas</a></li>
+                            <li><a class="dropdown-item" href="#">Calças</a></li>
+                            <li><a class="dropdown-item" href="#">Bermudas & Shorts</a></li>
+                            <li><a class="dropdown-item" href="#">Jaquetas & Casacos</a></li>
+                            <li><a class="dropdown-item" href="#">Blusas & Suéteres</a></li>
+                            <li><a class="dropdown-item" href="#">Roupas de Banho</a></li>
+                            <li><a class="dropdown-item" href="#">Trajes & Ternos</a></li>
+                            <li><a class="dropdown-item" href="#">Roupa Esportiva</a></li>
+                            <li><a class="dropdown-item" href="#">Roupa Íntima</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Ver tudo</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Calçados</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Tênis</a></li>
+                            <li><a class="dropdown-item" href="#">Sapatos</a></li>
+                            <li><a class="dropdown-item" href="#">Botas</a></li>
+                            <li><a class="dropdown-item" href="#">Sandálias & Chinelos</a></li>
+                            <li><a class="dropdown-item" href="#">Mocassim</a></li>
+                            <li><a class="dropdown-item" href="#">Calçados Esportivos</a></li>
+                            <li><a class="dropdown-item" href="#">Calçados de Inverno</a></li>
+                            <li><a class="dropdown-item" href="#">Sapatênis</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Ver tudo</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Acessórios</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Bolsas & Mochilas</a></li>
+                            <li><a class="dropdown-item" href="#">Relógios</a></li>
+                            <li><a class="dropdown-item" href="#">Óculos</a></li>
+                            <li><a class="dropdown-item" href="#">Cintos</a></li>
+                            <li><a class="dropdown-item" href="#">Chapéus & Bonés</a></li>
+                            <li><a class="dropdown-item" href="#">Meias</a></li>
+                            <li><a class="dropdown-item" href="#">Lenços & Bandanas</a></li>
+                            <li><a class="dropdown-item" href="#">Luvas</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Ver tudo</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Marcas</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Supreme</a></li>
+                            <li><a class="dropdown-item" href="#">Off-White</a></li>
+                            <li><a class="dropdown-item" href="#">BAPE</a></li>
+                            <li><a class="dropdown-item" href="#">Fear of God</a></li>
+                            <li><a class="dropdown-item" href="#">Palm Angels</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Ver tudo</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#">Promoções</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#">Kids</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Carrossel -->
+        <div class="container-fluid">
+            <div id="carouselExampleIndicators" class="carousel slide custom-carousel border-bottom border-black"
+                data-bs-ride="carousel" data-bs-interval="7500" data-bs-pause="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row align-items-center">
+                            <!-- Coluna 1 -->
+                            <div class="col-md-5" style="padding: 7.5%">
+                                <h1>BAPE&reg; na KRIS</h1>
+                                <p>Inspirada nas cores e símbolos de diferentes culturas, a nova coleção SHARK COUNTRY
+                                    PACK da BAPE&reg; traz peças que celebram a diversidade e a paixão por um estilo
+                                    autêntico.</p>
+                                <a href="#" class="btn btn-lemon">Compre agora</a>
+                            </div>
+                            <!-- Coluna 2 -->
+                            <div class="col-md-7">
+                                <img src="images/bape-banner.jpg" alt="Imagem da coleção SHARK COUNTRY PACK"
+                                    class="img-fluid w-100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <!-- Coluna 1 -->
+                            <div class="col-md-5" style="padding: 7.5%">
+                                <h1>Lorem Ipsum</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.</p>
+                                <a href="#" class="btn btn-lemon">Compre agora</a>
+                            </div>
+                            <!-- Coluna 2 -->
+                            <div class="col-md-7">
+                                <img src="images/xmas-banner.jpg" alt="..." class="img-fluid w-100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <!-- Coluna 1 -->
+                            <div class="col-md-5" style="padding: 7.5%">
+                                <h1>Lorem Ipsum</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.</p>
+                                <a href="#" class="btn btn-lemon">Compre agora</a>
+                            </div>
+                            <!-- Coluna 2 -->
+                            <div class="col-md-7">
+                                <img src="https://placehold.co/2400x1080" alt="..." class="img-fluid w-100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-4">
+
+            <!-- Em Sale -->
+            <section class="my-5">
+                <h4 class="mb-5">EM SALE<span style="font-weight: normal"> | Encontre suas peças preferidas com até 50%
+                        de desconto</span></h4>
+                <div class="row row-cols-2 row-cols-lg-4 g-4 mb-5">
+                    <div class="col product">
+                        <a href="off-white-camiseta-com-estampa-arrows.html">
+                            <img src="images/produto-1.jpg" alt="..." class="img-fluid mb-2">
+                            <p style="font-weight: bold">Off-White</p>
+                            <p>Camiseta com estampa Arrows</p>
+                            <p>R$ 2.220 <span style="font-size: 85%; color: tomato; text-decoration: line-through">R$
+                                    3.392</span></p>
+                        </a>
+                    </div>
+                    <div class="col product">
+                        <img src="images/produto-2.jpg" alt="..." class="img-fluid mb-2">
+                        <p style="font-weight: bold">Alexander McQueen</p>
+                        <p>Ankle boot Sofa</p>
+                        <p>R$ 5.917 <span style="font-size: 85%; color: tomato"><s>R$ 8.435</s></span></p>
+                    </div>
+                    <div class="col product">
+                        <img src="https://placehold.co/1000X1334" alt="..." class="img-fluid mb-2">
+                        <p style="font-weight: bold">Polo Ralph Lauren</p>
+                        <p>Jaqueta Beaton matelassê</p>
+                        <p>R$ 4.379 <span style="font-size: 85%; color: tomato"><s>R$ 5.144</s></span></p>
+                    </div>
+                    <div class="col product">
+                        <img src="https://placehold.co/1000X1334" alt="..." class="img-fluid mb-2">
+                        <p style="font-weight: bold">Balenciaga</p>
+                        <p>Tênis cano baixo 3XL Extreme Graffiti</p>
+                        <p>R$ 11.997 <span style="font-size: 85%; color: tomato"><s>R$ 14.107</s></span></p>
+                    </div>
+                </div>
+                <div class="text-center my-5">
+                    <a class="btn btn-lemon" href="#" role="button">Ver tudo</a>
+                </div>
+            </section>
+
+            <!-- New In -->
+            <section class="my-5">
+                <h4 class="mb-5">NEW IN<span style="font-weight: normal"> | As melhores novidades da temporada</span>
+                </h4>
+                <div class="row row-cols-2 row-cols-lg-4 g-4 mb-5">
+                    <div class="col product">
+                        <img src="https://placehold.co/1000X1334" alt="..." class="img-fluid mb-2">
+                        <p style="font-weight: bold">Balmain</p>
+                        <p>Camiseta com logo bordado</p>
+                        <p>R$ 3.400</p>
+                    </div>
+                    <div class="col product">
+                        <img src="https://placehold.co/1000X1334" alt="..." class="img-fluid mb-2">
+                        <p style="font-weight: bold">AMIRI</p>
+                        <p>Tênis Classic Low</p>
+                        <p>R$ 5.779</p>
+                    </div>
+                    <div class="col product">
+                        <img src="https://placehold.co/1000X1334" alt="..." class="img-fluid mb-2">
+                        <p style="font-weight: bold">Orlebar Brown</p>
+                        <p>Bermuda Trevone</p>
+                        <p>R$ 3.097</p>
+                    </div>
+                    <div class="col product">
+                        <img src="https://placehold.co/1000X1334" alt="..." class="img-fluid mb-2">
+                        <p style="font-weight: bold">Casablanca</p>
+                        <p>Jaqueta bomber Chenille Patchwork</p>
+                        <p>R$ 15.210</p>
+                    </div>
+                </div>
+                <div class="text-center my-5">
+                    <a class="btn btn-lemon" href="#" role="button">Ver tudo</a>
+                </div>
+            </section>
+
+            <!-- Masculino, Feminino, Kids -->
+            <section class="my-5">
+                <div class="row">
+                    <div class="col col-animated">
+                        <div style="width: 100%; overflow: hidden">
+                            <img src="images/masculino.jpg" alt="Masculino" class="img-fluid">
+                        </div>
+                        <h4 class="text-expand my-3">Masculino →</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-animated">
+                        <div style="width: 100%; overflow: hidden">
+                            <img src="images/feminino.jpg" alt="Feminino" class="img-fluid">
+                        </div>
+                        <h4 class="text-expand my-3">Feminino →</h4>
+                    </div>
+                    <div class="col col-animated">
+                        <div style="width: 100%; overflow: hidden">
+                            <img src="images/kids.jpg" alt="Kids" class="img-fluid">
+                        </div>
+                        <h4 class="text-expand my-3">Kids →</h4>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Blog -->
+            <section class="my-5">
+                <h4 class="my-4">BLOG<span style="font-weight: normal"> | Histórias para iluminar seu dia</span></h4>
+                <div class="row row-cols-2 row-cols-lg-4 g-4">
+                    <div class="col">
+                        <div class="card h-100 border-black">
+                            <img src="https://placehold.co/300x400" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-black">
+                            <img src="https://placehold.co/300x400" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-black">
+                            <img src="https://placehold.co/300x400" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-black">
+                            <img src="https://placehold.co/300x400" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Benefícios -->
+            <section class="my-5">
+                <div class="row row-cols-1 row-cols-lg-3 g-4 d-flex justify-content-between">
+                    <!-- Frete Grátis -->
+                    <div class="col" style="max-width: 300px">
+                        <div>
+                            <svg width="34" height="38" viewBox="0 0 34 38" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="mb-3">
+                                <path d="M25.0451 13.9649L8.95605 4.65918" stroke="currentColor" stroke-linecap="round">
+                                </path>
+                                <path
+                                    d="M33.0892 25.7986V11.4546C33.0885 10.8257 32.923 10.2081 32.6093 9.66365C32.2955 9.11921 31.8445 8.66709 31.3015 8.35267L18.7878 1.18063C18.2443 0.865892 17.6278 0.700195 17.0002 0.700195C16.3726 0.700195 15.756 0.865892 15.2125 1.18063L2.6988 8.35267C2.15582 8.66709 1.70482 9.11921 1.39105 9.66365C1.07728 10.2081 0.911776 10.8257 0.911133 11.4546V25.7986C0.911776 26.4275 1.07728 27.0451 1.39105 27.5896C1.70482 28.134 2.15582 28.5861 2.6988 28.9006L15.2125 36.0726C15.756 36.3873 16.3726 36.553 17.0002 36.553C17.6278 36.553 18.2443 36.3873 18.7878 36.0726L31.3015 28.9006C31.8445 28.5861 32.2955 28.134 32.6093 27.5896C32.923 27.0451 33.0885 26.4275 33.0892 25.7986Z"
+                                    stroke="currentColor" stroke-linecap="round"></path>
+                                <path d="M1.39355 9.58984L16.9999 18.6445L32.6063 9.58984" stroke="currentColor"
+                                    stroke-linecap="round"></path>
+                                <path d="M17.001 36.7V18.6265" stroke="currentColor" stroke-linecap="round"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h6 class="mb-1">Frete Grátis</h6>
+                            <p>Aproveite frete grátis em compras acima de R$1.000.</p>
+                        </div>
+                    </div>
+                    <!-- Fácil Devolução -->
+                    <div class="col" style="max-width: 300px">
+                        <div>
+                            <svg width="28" height="29" viewBox="0 0 28 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="mb-3">
+                                <path d="M19.6112 6.54054L24.8971 6.56485L24.3664 1.30559" stroke="black"
+                                    stroke-linecap="square" stroke-linejoin="round"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M26.8493 15C26.8493 22.1899 21.0863 28 13.9999 28C6.91346 28 1.15039 22.1899 1.15039 15C1.15039 7.81008 6.91346 2 13.9999 2C18.0223 2 21.6184 3.87204 23.9761 6.80585L24.9375 6.41098C22.4035 3.11826 18.4464 1 13.9999 1C6.35101 1 0.150391 7.26801 0.150391 15C0.150391 22.732 6.35101 29 13.9999 29C21.6487 29 27.8493 22.732 27.8493 15C27.8493 13.915 27.7272 12.8587 27.4961 11.8446L26.5568 12.228C26.7484 13.121 26.8493 14.0484 26.8493 15Z"
+                                    fill="black"></path>
+                                <path d="M17.8436 12.2002L12.4162 17.6276L9.94922 15.1606" stroke="black"
+                                    stroke-linecap="square" stroke-linejoin="round"></path>
+                            </svg>
+                        </div>
+                        <h6 class="mb-1">Fácil Devolução</h6>
+                        <p>Devolva ou troque sua compra se não for o que você esperava.</p>
+                    </div>
+                    <!-- Uma Loja Perto de Você -->
+                    <div class="col" style="max-width: 300px">
+                        <div>
+                            <svg width="24" height="30" viewBox="0 0 24 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="mb-3">
+                                <path
+                                    d="M23.454 12.4545C23.454 21.3636 11.9995 29 11.9995 29C11.9995 29 0.544922 21.3636 0.544922 12.4545C0.544922 9.41661 1.75174 6.5031 3.89988 4.35496C6.04802 2.20681 8.96153 1 11.9995 1C15.0374 1 17.9509 2.20681 20.0991 4.35496C22.2472 6.5031 23.454 9.41661 23.454 12.4545Z"
+                                    stroke="black" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path
+                                    d="M11.9998 16.2726C14.1085 16.2726 15.818 14.5631 15.818 12.4544C15.818 10.3457 14.1085 8.63623 11.9998 8.63623C9.8911 8.63623 8.18164 10.3457 8.18164 12.4544C8.18164 14.5631 9.8911 16.2726 11.9998 16.2726Z"
+                                    stroke="black" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </div>
+                        <h6 class="mb-1">Uma Loja Perto de Você</h6>
+                        <p>Visite-nos para encontrar a peça perfeita hoje mesmo.</p>
+                    </div>
+                </div>
+            </section>
+
+    </main>
+
+    <footer class="bg-midnight text-white pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>INSTITUCIONAL</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Sobre</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Política de Privacidade</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Termos e Condições</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Trabalhe Conosco</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <h5>AJUDA</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Fale Conosco</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Trocas e Devoluções</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Envio e Entrega</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Pagamento</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Cancelamento</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Cupons e Descontos</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <h5>SIGA-NOS</h5>
+                    <ul class="list-unstyled d-flex">
+                        <li><a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <p>&copy; 2024 KRIS Clothing</p>
+                </div>
+
+                <div class="col-md-6 mb-3 text-lg-end">
+                    <img src="images/mastercard-logo.png" alt="MasterCard" class="payment-logo me-2"
+                        style="width: 40px">
+                    <img src="images/visa-logo.png" alt="Visa" class="payment-logo me-2" style="width: 40px">
+                    <img src="images/amex-logo.png" alt="American Express" class="payment-logo me-2"
+                        style="width: 40px">
+                    <img src="images/elo-logo.png" alt="Elo" class="payment-logo me-2" style="width: 40px">
+                    <img src="images/hipercard-logo.png" alt="Hipercard" class="payment-logo me-2" style="width: 40px">
+                    <img src="images/paypal-logo.png" alt="PayPal" class="payment-logo me-2" style="width: 40px">
+                    <img src="images/pix-logo.png" alt="Pix" class="payment-logo me-2" style="width: 40px">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- JS local -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

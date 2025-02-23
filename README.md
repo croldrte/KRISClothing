@@ -1,152 +1,197 @@
-# MeuPrimeiroBriefing
+<div align="center">
+  <h1>KRIS Clothing</h1>
+  <p>Projeto de site para a loja de roupas fictícia KRIS Clothing, desenvolvido com HTML, CSS, JavaScript e Bootstrap.</p>
+  <a href="https://croldrte.github.io/KRISClothing/">
+    <p>「 Live Demo 」</p>
+  </a>
+</div>
 
-## Criação e interpretação de Briefing para um Projeto Web
+## Conteúdo
+1. [Introdução](#introdução)
+2. [Briefing](#briefing)
+2. [Tecnologias utilizadas](#tecnologias-utilizadas)
+3. [Funcionalidades](#funcionalidades)
 
-### projeto escolhido pelo cliente
+## Introdução
+Este repositório contém o projeto desenvolvido para uma atividade do curso técnico em Informática para Internet do [SENAI-MG](https://www.fiemg.com.br/senai/), no qual foi criado um site para a loja de roupas fictícia KRIS Clothing, com base em um briefing fornecido por outra equipe em sala de aula. O objetivo foi aplicar de forma prática os conceitos de programação client-side, focando no desenvolvimento de sites e no processo de criação com base nas exigências do briefing.
 
-Site de vendas de cosméticos ecologicos
+## Briefing
 
-### Nome da empressa
+### Nome da empresa
+KRIS Clothing
 
-Raiz do Bem
+### Segmento
+Moda e vestuário
 
-### Publico alvo
+### Público-alvo
+- Jovens adultos (18-35 anos)
+- Homens em geral
 
-Feminino (produtos veganos e ecologicos)
+### Objetivos do website
+- Aumentar a visibilidade e atrair mais clientes
+- Facilitar a navegação e a experiência de compra online
 
-### Objetivo do Web Site
-
-Transformar visitantes em clientes 
-pagina de vendas
-
-### "Imagem" a ser transmitida
-
-Amigável "amigo da natureza"
-pdroduto "clean"
-Conservação do meio ambiente.
-
-### Conteúdo dinâmico? Qual?
-
-Vídeos de apresentação dos produtos e conscientização dos clientes sobre produtos ecologicos.
+### Conteúdo dinâmico
+- **Blog de moda:** Dicas de estilo, tendências, guias de compra
+- **Vídeos de estilo:** Como usar peças de diferentes maneiras
 
 ### Concorrentes
+- Vantagens: Presença forte nas redes sociais, variedade de produtos e estilos, experiência do usuário aprimorada em seus sites
+- Desvantagens: Preços elevados e falta de personalização
 
-Simple Organic
-Lush
+### Referências
+- https://en.zalando.de/ – E-commerce
+- https://www.asos.com/ – Design moderno e intuitivo
 
-### Referênfias
+### Observações
+É uma loja em constante crescimento, com o objetivo de ter lojas físicas por todo o país.
 
-Dermstore
-Vehan Beauty
+<details>
+<summary>Ver briefing completo/detalhado</summary>
 
+### Estratégia
 
-# Briefing completo/detalhado
+**1. Quais são os principais objetivos do site? Informar? Vender? Dar suporte?**
 
-## Estratégia
+Vender.
 
-### Quais são os principais objetivos do site? Informar? Vender? Dar suporte?
+**2. Que tipo de site ele é? Promocional? Coletor de informações? Uma publicação?**
 
-Vender e informar a respeito dos produtos da marca.
+Promocional.
 
-### Que tipo de site ele é? Promocional? Coletor de informações? uma publicação?
+**3. Quais são as mensagens mais importantes que o site deve passar aos visitantes?**
 
-e-commerce
+"Vendemos modelos de qualidade e confiança".
 
-### Quais são as mensagens mais importantes que o site deve para os visitantes?
+**4. Quais são os planos para promover o site?**
 
-acessibilidade e sustentabilidade
+Panfletos e anúncios online.
 
-### Quais são os planos para promover o site?
+**5. Há uma data aproximada para que o site esteja pronto?**
 
-anúncios pagos online.
+Em até 1 mês.
 
-### Há uma data aproximada parapara que o site esteja pronto?
+### Informações gerais sobre o website
 
-2° trimestre de 2025
+**6. Descreva o negócio/produto/empresa como se fosse uma pessoa. Seria uma pessoa séria? Jovem? Confiável? Justifique.**
 
-## Informações gerais sobre o Web Site
+Uma pessoa bonita e confiável.
 
-### Descreva o negócio/produto/empresa como se fosse uma pessoa. Uma pessoa seria? Jovem? Confiavel? Justifique.
+**7. Quais são os pontos fortes e fracos do negócio/produto/empresa? Por quê?**
 
-uma pessoa preocupada com o meio ambiente, amante do mundo da beleza, confiável, amigável.
+Pontos fortes: Qualidade e segurança.
 
-### Quais são os pontos fortes e fracos do negócio/produto/empresa? Por quê?
+Pontos fracos: Preços elevados.
 
-A pegada ambiental é observada tanto como ponto forte  quanto ponto fraco. Forte, por se tratar de um estilo valorizado no mercado atual (há uma preocupação crescente com a sustentabilidade), e fraco por se tratar de um nicho delimita a atuação da empresa.
+**8. Qual a mensagem que melhor descreve o conteúdo/atuação do negócio/produto/empresa?**
 
-### Qual a mensagem que melhor descreve o conteúdo/atuação do negócio/produto/empresa?
+Qualidade e segurança.
 
-Beleza que respeita a natureza.
+**9. É necessário obter dados dos visitantes? O que é preciso saber? Por quê?**
 
-### É necessário obter dados dos visitantes? O que é preciso saber? Por quê?
+Sim. Saber seus gastos.
 
-sim, dados para cadastro, como nome completo, cpf, data de nascimento, endereço, dados do cartão ou conta, essas informações são solicitadas no ato da compra.
+### Público-alvo
 
-## Público-alvo
+**10. Foi apontado na última reunião que o público-alvo são jovens adultos de 18 a 35 anos e homens em geral. Para complementar, qual é o público-alvo secundário e terciário? Descreva interesses, necessidades e o que mais souber a respeito.**
 
-Pessoas interessadas em se cuidar, pessoas interessadas em cuidar do meio ambiente, empresas interessadas em revender nossos produtos.
+Adultos, adolescentes e público infantil.
 
-### O que o site irá oferecer ao seu público-alvo?
+**11. O que o site irá oferecer ao seu público-alvo?**
 
-Compra e revenda de cosméticos veganos, orgânicos e sustentáveis, consumo livre da "crueldade" contra o meio ambiente. Catálogo e informações sobre os produtos, formas de pagamento, matérias sobre preservação do meio ambiente.
+Suporte ao cliente, compras online.
 
-### O que os visitantes devem fazer no site?
+**12. O que os visitantes devem fazer no site?**
 
-Navegar pelo catálogo de produtos, selecionar os que les interessam e posteriormente fechar a compra, conhecer nossos serviços/ marca e fazer o cadastro.
+Comprar os produtos.
 
-### Qual o conhecimento que os visitantes do site têm de internet/web? E o conhecimento técnico?
+**13. Qual o conhecimento que os visitantes do site têm de internet/web? E o conhecimento técnico?**
 
-Nivel básico, sabem navegar, buscar e acessar conteúdos online.
+Conhecimento básico.
 
-### Qual a "capacidade técnica" de acesso de seus usuários (Navegador, velocidade de acesso, tempo de acesso diário, etc)?
+**14. Qual a "capacidade técnica" de acesso de seus usuários (navegador, velocidade de acesso, tempo de acesso diário, etc.)?**
 
-site leve, que atenda bem a variedade de velocidade de rede disponível, sem complexidade para que tenha um bom carregamento, mesmo em internets mais lentas, tempo de acesso entre 15 a 30 minujtos.
-## Conteúdo
+Capacidade de acesso elevada.
 
-### Que informações do site mudará(atualização)? Com que frequência e com que abrangência?
+### Conteúdo
 
-Podutos e preços do catálogo, freuqencia mensal.
+**15. Que informação do site mudará (atualização)? Com que frequência e com que abrangência?**
 
-### Quem se beneficia com as atualizações?
+Design e HUD.
 
-Cliente e proprietário.
+**16. Quem se beneficia com as atualizações?**
 
-### Qual são as funcionalidades que precisam existir?
+Os clientes e os desenvolvedores.
 
-Cadastro do cliente, perfil do cliente, toda a parte da compra (adicionar ao carrinho, fechar compra, pagamento entrega).
+**17. Quais são as funcionalidades que precisam existir?**
 
+Sistema funcional com login e senha.
 
-Compartilhamento em redes sociais.
+**18. Qual é o "aceite" do site (o que precisa existir para "aceitar" que ele está pronto)?**
 
-### Qual é o "aceite" do site (o que precisa existir para "aceitar" que ele está pronto)?
+Estar 100% funcional.
 
-catálogo de produtos e sistema de compra devidamente estruturado.
+### Aparência (design)
 
-## Aparencia (DESIGN)
+**19. Tem em mente alguma aparência para o website?**
 
-### Tem em mente alguma aparência para o web site?
+Sim.
 
-Minimalista, temática de natureza, tons de verde.
+**20. Existem padrões existentes, como logotipos e cores, que devem estar presentes?**
 
-### Existe padrões esxistentes, como logotipos e cores, que devem estar presentes?
+Cores de verde e azul.
 
-O logotipo e o slogan. cores = tons de verde, rosas e terrosos / bege
+**21. O site parte de um site maior ou grupo de sites com padrões de design que precisam ser correspondidos?**
 
-### O site parte de um site maior ou grupo de sites com padrões de desing que precisa ser corespondido?
+Sim.
 
-Não, a marca não possui outros sites.
+**22. Quais são alguns outros sites da web que você gosta? O que você gosta a respeito deles? Se possível, envie links de referencia.**
 
-### Quais são alguns outros sites da web que você gosta? O que você gosta a respeito deles? Se possível, envie links de refêrencia.
+https://www.netshoes.com.br/
 
-dermstore.com
-veganbeauty.com.au
+### Outros
 
-## Outros
+**24. No Briefing Preliminar, não foram apontados concorrentes. O que é mais preocupante em relação a eles? Teria algumas informações mais detalhadas a respeito?**
 
-### Quem será o responsavel pelo contato para eventuais esclarecimentos sobre o projeto e envio de materiais?
+Os preços mais baratos.
 
-o próprio cliente
+**25. O que não pode haver no website, em função dos concorrentes?**
 
-### No Briefing Preliminar, foram apontados como concorrentes Receitas Nestlé. O que é mais preocupante em relação a eles? Teria algumas informações mais detalhadas a respeito?
+Modelos comuns e de baixa qualidade.
 
-Marketing, Público consolidado, capacidade  financeira.
+</details>
+
+## Tecnologias utilizadas
+-  **Linguagens**: HTML5, CSS3 e JavaScript
+-  **Framework:** Bootstrap 5.3.3
+-  **IDE**: Visual Studio Code
+-  **Versionamento:** GIT
+-  **Gestão de repositórios:** GitHub
+
+## Funcionalidades
+**Loja online**
+- [ ] Página de produtos com filtros de categoria, preço, tamanho, cor, etc.
+- [ ] Sacola de compras com resumo de itens e valores
+- [ ] Lista de favoritos para que os clientes possam salvar produtos para compra futura
+
+**Sistema de login e senha**
+- [X] Permitir criação de conta e login para clientes, oferecendo uma experiência personalizada
+
+**Blog de moda**
+- [X] Seção com artigos sobre tendências, dicas de estilo e guias de compra
+
+**Vídeos de estilo**
+- [ ] Área para vídeos que mostram como usar as peças de diferentes maneiras, com link direto para a compra dos produtos exibidos
+
+**Busca de produtos**
+- [ ] Filtros de busca com opções como cor, tamanho, estilo, e faixa de preço
+
+**Integração com redes sociais**
+- [ ] Botões para compartilhamento de produtos nas principais plataformas sociais
+- [X] Links para as redes sociais da KRIS Clothing
+
+**Cadastro de newsletter**
+- [ ] Permitir que os clientes se inscrevam para receber novidades, promoções e dicas de moda
+
+**Avaliações e comentários**
+- [ ] Permitir que os clientes deixem avaliações sobre os produtos adquiridos

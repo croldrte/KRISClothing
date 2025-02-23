@@ -1,15 +1,3 @@
-// CARREGAR NAVBAR
-function loadNavbar() {
-    fetch('navbar.html')
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('navbar-container').innerHTML = data;
-        })
-        .catch(error => console.error('Erro ao carregar a navbar:', error));
-}
-
-window.onload = loadNavbar;
-
 // SISTEMA DE LOGIN E CADASTRO
 // Simulação de um "banco de dados" local (apenas para fins de demonstração)
 const usersDatabase = [];

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRIS Clothing</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dela+Gothic+One&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- CSS local -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <!-- Barra de Menu - Cima -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-midnight navbar-top">
+            <div class="container">
+                <!-- Menu Hambúrguer -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <img src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23ffffff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"
+                            alt="Menu">
+                    </span>
+                </button>
+                <!-- Logo -->
+                <a class="navbar-brand mx-auto mx-md-0 order-0 order-md-1" href="index.html">
+                    <img src="images/kris-logo.svg" alt="KRIS Clothing" height="30"
+                        style="filter: brightness(0) invert(1);">
+                </a>
+                <!-- Ícones - Login, Lista de Desejos, Sacola de Compras -->
+                <div class="d-flex order-2 order-md-3">
+                    <a href="login.html" class="text-light mx-2">
+                        <i class="bi bi-person" style="font-size: 1.5rem;"></i>
+                    </a>
+                    <a href="favoritos.html" class="text-light mx-2">
+                        <i class="bi bi-heart" style="font-size: 1.5rem;"></i>
+                    </a>
+                    <a href="sacola.html" class="text-light mx-2">
+                        <i class="bi bi-bag" style="font-size: 1.5rem;"></i>
+                    </a>
+                </div>
+                <!-- Barra de Pesquisa -->
+                <form class="d-flex flex-grow-1 mx-md-5 d-md-flex d-block order-3 order-md-2" role="search">
+                    <input class="form-control" type="search" placeholder="O que você está procurando?"
+                        aria-label="Search">
+                    <button class="btn btn-lemon" type="submit">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </form>
+            </div>
+        </nav>
+        <!-- Barra de Menu - Baixo -->
+        <nav class="navbar navbar-expand-md navbar-light navbar-bottom border-bottom border-black">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#">Lançamentos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Roupas</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Camisetas</a></li>
+                            <li><a class="dropdown-item" href="#">Camisas</a></li>
+                            <li><a class="dropdown-item" href="#">Calças</a></li>
+                            <li><a class="dropdown-item" href="#">Bermudas & Shorts</a></li>
+                            <li><a class="dropdown-item" href="#">Jaquetas & Casacos</a></li>
+                            <li><a class="dropdown-item" href="#">Blusas & Suéteres</a></li>
+                            <li><a class="dropdown-item" href="#">Roupas de Banho</a></li>
+                            <li><a class="dropdown-item" href="#">Trajes & Ternos</a></li>
+                            <li><a class="dropdown-item" href="#">Roupa Esportiva</a></li>
+                            <li><a class="dropdown-item" href="#">Roupa Íntima</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Ver tudo</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Calçados</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Tênis</a></li>
+                            <li><a class="dropdown-item" href="#">Sapatos</a></li>
+                            <li><a class="dropdown-item" href="#">Botas</a></li>
+                            <li><a class="dropdown-item" href="#">Sandálias & Chinelos</a></li>
+                            <li><a class="dropdown-item" href="#">Mocassim</a></li>
+                            <li><a class="dropdown-item" href="#">Calçados Esportivos</a></li>
+                            <li><a class="dropdown-item" href="#">Calçados de Inverno</a></li>
+                            <li><a class="dropdown-item" href="#">Sapatênis</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Ver tudo</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Acessórios</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Bolsas & Mochilas</a></li>
+                            <li><a class="dropdown-item" href="#">Relógios</a></li>
+                            <li><a class="dropdown-item" href="#">Óculos</a></li>
+                            <li><a class="dropdown-item" href="#">Cintos</a></li>
+                            <li><a class="dropdown-item" href="#">Chapéus & Bonés</a></li>
+                            <li><a class="dropdown-item" href="#">Meias</a></li>
+                            <li><a class="dropdown-item" href="#">Lenços & Bandanas</a></li>
+                            <li><a class="dropdown-item" href="#">Luvas</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Ver tudo</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Marcas</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Supreme</a></li>
+                            <li><a class="dropdown-item" href="#">Off-White</a></li>
+                            <li><a class="dropdown-item" href="#">BAPE</a></li>
+                            <li><a class="dropdown-item" href="#">Fear of God</a></li>
+                            <li><a class="dropdown-item" href="#">Palm Angels</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Ver tudo</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#">Promoções</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#">Kids</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="container my-4">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/produto-1.jpg" alt="Camiseta com Estampa Arrows" class="img-fluid">
+                </div>
+
+                <div class="col-md-6 product">
+                    <h5><b>Off-White</b></h5>
+                    <p>Camiseta com Estampa Arrows</p>
+
+                    <div class="my-3">
+                        <p style="font-size: 85%; color: tomato; text-decoration: line-through">R$ 3.392</p>
+                        <p style="font-size: 125%">R$ 2.220</p>
+                        <p style="font-size: 85%">6 x R$ 370,00</p>
+                    </div>
+
+                    <div class="my-3">
+                        <p>Tamanhos</p>
+                        <div class="d-flex">
+                            <button class="btn btn-outline-dark me-2">XP</button>
+                            <button class="btn btn-outline-dark me-2">P</button>
+                            <button class="btn btn-outline-dark me-2">M</button>
+                            <button class="btn btn-outline-dark me-2">G</button>
+                            <button class="btn btn-outline-dark">XG</button>
+                        </div>
+                    </div>
+
+                    <div class="d-flex my-3">
+                        <button class="btn btn-outline-dark me-2 add-to-cart" data-id="1"
+                            data-name="Camiseta com Estampa Arrows" data-price="2220.00">Adicionar à sacola</button>
+                        <button class="btn btn-lemon">Comprar</button>
+                    </div>
+
+                    <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="bg-midnight text-white pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>INSTITUCIONAL</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Sobre</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Política de Privacidade</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Termos e Condições</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Trabalhe Conosco</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <h5>AJUDA</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Fale Conosco</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Trocas e Devoluções</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Envio e Entrega</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Pagamento</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Cancelamento</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Cupons e Descontos</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <h5>SIGA-NOS</h5>
+                    <ul class="list-unstyled d-flex">
+                        <li><a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <p>&copy; 2024 KRIS Clothing</p>
+                </div>
+
+                <div class="col-md-6 mb-3 text-lg-end">
+                    <img src="images/mastercard-logo.png" alt="MasterCard" class="payment-logo me-2"
+                        style="width: 40px">
+                    <img src="images/visa-logo.png" alt="Visa" class="payment-logo me-2" style="width: 40px">
+                    <img src="images/amex-logo.png" alt="American Express" class="payment-logo me-2"
+                        style="width: 40px">
+                    <img src="images/elo-logo.png" alt="Elo" class="payment-logo me-2" style="width: 40px">
+                    <img src="images/hipercard-logo.png" alt="Hipercard" class="payment-logo me-2" style="width: 40px">
+                    <img src="images/paypal-logo.png" alt="PayPal" class="payment-logo me-2" style="width: 40px">
+                    <img src="images/pix-logo.png" alt="Pix" class="payment-logo me-2" style="width: 40px">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- JS local -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
